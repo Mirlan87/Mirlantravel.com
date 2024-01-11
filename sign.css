@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #757575;
+}
+
+.block {
+    width: 559px;
+    height: 569px;
+    background-color: white;
+    margin: 0 auto;
+    border-radius: 12px;
+    margin-top: 131px;
+}
+
+.block-text {
+    color: black;
+    font-family: 'Inter', sans-serif;
+    margin-left: 35px;
+    padding-top: 40px;
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.input-email {
+    background: url(email.png) 5px 2px no-repeat;
+    padding: 13px;
+    padding-left: 46px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 400px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.input-email:active,
+:hover,
+:focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
+.input-password {
+    background: url(lock.png) 5px 2px no-repeat;
+    padding: 13px;
+    padding-left: 46px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 400px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.input-email::placeholder {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.input-password::placeholder {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.chekbox .input-chekbox {
+    margin-left: 50px;
+    width: 4mm;
+    height: 4mm;
+    margin-top: 40px;
+
+
+}
+.chekbox a{
+    font-family: 'Inter', sans-serif;
+    color: #4070F5;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 150px;
+    font-size: 18px;
+
+}
+
+.labels {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+
+}
+
+.button {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.btn {
+    width: 478px;
+    height: 66px;
+    border: 0;
+    background: #4070F4;
+    color: white;
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 700;
+    border-radius: 6px;
+
+}
+
+.text1 {
+    
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 50px;
+    
+
+}
+.text1 span a{
+    color: #4070F4;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+}
